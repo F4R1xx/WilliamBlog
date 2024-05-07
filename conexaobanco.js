@@ -92,9 +92,11 @@ function header_logado() {
     // Insira o bloco HTML dentro do elemento selecionado
     if (user_email == "williamfunk.11@gmail.com") {
         container.innerHTML += admlogin;
-    }
+        container.innerHTML += logout;
+    } else {
     BemVindo.innerHTML += BemVindo_frase;
     container.innerHTML += logout;
+    }
 }
 
 verifica_login()
